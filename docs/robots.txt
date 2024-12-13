@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://luiss1991.github.io
-
-# Sitemaps
-Sitemap: https://luiss1991.github.io/sitemap.xml
