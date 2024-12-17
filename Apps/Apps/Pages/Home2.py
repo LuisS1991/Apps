@@ -917,24 +917,7 @@ def create_page_layout():
 
 @rx.page("/home2", "Apps")
 def Home2():
-    """
-    Create the complete app with styles and layout. 
-    create_stylesheet_link(
-            stylesheet_url="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-        ),
-    """
+ 
     return rx.fragment(
-       
-        create_stylesheet_link(
-            stylesheet_url="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        ),
-        rx.el.style(
-            """
-    @font-face {
-        font-family: 'LucideIcons';
-        src: url(https://unpkg.com/lucide-static@latest/font/Lucide.ttf) format('truetype');
-    }
-"""
-        ),
         create_page_layout(),
     )

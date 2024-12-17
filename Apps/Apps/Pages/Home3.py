@@ -215,7 +215,7 @@ def create_logo_with_text():
     return rx.flex(
         rx.image(
             alt="SoftwareHub Logo",
-            src="https://replicate.delivery/xezq/Fj2Vp8ItxvrPPJCa8C5ePfcHfX0DwG2b9QP45FgFzs0SCmznA/out-0.webp",
+            src="https://replicate.delivery/xezq/qcBC63Jgv8Z4Gx2kPpPQXIzvmxvJ6bYzSF7cgoX6vRPhnXeJA/out-0.webp",
             height="2rem",
             margin_right="0.5rem",
             width="2rem",
@@ -713,18 +713,5 @@ def create_page_layout():
 def Home3():
     """Create the complete application with necessary scripts, styles, and content.rx.script(src="https://cdn.tailwindcss.com"),"""
     return rx.fragment(
-
-        rx.el.link(
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
-            rel="stylesheet",
-        ),
-        rx.el.style(
-            """
-        @font-face {
-            font-family: 'LucideIcons';
-            src: url(https://unpkg.com/lucide-static@latest/font/Lucide.ttf) format('truetype');
-        }
-    """
-        ),
         create_page_layout(),
     )
